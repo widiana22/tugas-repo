@@ -1,0 +1,10 @@
+.benner {
+    background: url(file:///C:/Users/user/Pictures/Saved%20Pictures/Tenaga-IT-02-1024x576.png)
+    no-repeat center center;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 30%;
+    color: white;
+    width: 1360px;
+    height: 500px;
+}

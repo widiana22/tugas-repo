@@ -1,0 +1,126 @@
+body {
+    background-color: #fafafa;
+    font-family: sans-serif;
+}
+    .container {
+        /* position: relative; */
+        width: 600px;
+        margin: 0px auto;
+        padding-top: 50px;
+        display:flex
+    }
+    
+    .gambar {
+        width: 50%;
+        margin-right: 10px;
+    }
+    
+    .img-thumb {
+        margin-top: 50px;
+        margin-right: 10px;
+        width: 100%;
+
+    }
+
+    .card-wrapper {
+        width: 50%;
+        padding-top: 50px;
+        margin: 0ps auto;
+    }
+
+    .card {
+        border-style: solid;
+        border-color: #f0f0f0;
+        border-width: 2px;
+        text-align: center;
+        background-color: white;
+        padding-bottom: 30px;
+        /* padding-top: 30px; */
+
+    }
+
+    .logo {
+        width: 180px;
+    }
+    
+    .form {
+        margin-top: 30px;
+    }
+
+    .input {
+        width: 290px;
+        height: 30px;
+        border: 1px solid grey;
+        border-radius: 1px;
+        padding : 4px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    .btn {
+        background-color: #0095f6;
+        border: 0px solid transparent;
+        margin-top: 10px;
+        width: 290px;
+        height: 30px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .login-with {
+        color: #01017a;
+        text-decoration: none;
+    }
+
+    .link-forgot {
+        color: grey;
+        text-decoration: none;
+        font-size: 12px;
+        padding-top: 20px;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        gap: 10px;
+      }
+      
+    .grid-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+      
+    .grid-item img {
+        max-width: 50% !important;
+        height: auto !important;
+        object-fit: cover !important;
+      }
+
+    .link-signup {
+        color:#0095f6;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .platform {
+        text-align: center;
+        display: grid;
+    }
+    .image {
+        max-width: 100%;
+    }
+    table,
+        td,
+    th {
+        border: 1px;
+        padding: 20px;
+    }
+
+    table {
+        text-align: absolute;
+        
+    }
+
+
+    
